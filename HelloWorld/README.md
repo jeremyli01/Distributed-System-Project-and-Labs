@@ -1,0 +1,2 @@
+Exercise 5
+None of the nodes commit the request until a majority of nodes have voted to commit the request. So, simply receiving the request and responding with a vote is not enough. The peer must wait until the server counts the votes and affirms that a majority says to commit.

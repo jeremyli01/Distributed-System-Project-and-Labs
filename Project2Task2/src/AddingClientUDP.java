@@ -1,7 +1,5 @@
 /**
- *
  * UDP Client for Project2Task2
- *
  * @author Zihan Li
  * @AndrewID zihanli2
  *
@@ -50,7 +48,9 @@ public class AddingClientUDP {
             if (aSocket != null) aSocket.close(); // close}
         }
     }
-
+    /**
+     * Add methods which encapsulates packets communication.
+     * */
     public static int add(int i) {
         try {
             // convert the text to a byte array
@@ -63,7 +63,9 @@ public class AddingClientUDP {
             byte[] buffer = new byte[1000];
             DatagramPacket reply = new DatagramPacket(buffer, buffer.length);
             aSocket.receive(reply);
+            // cut down the size of return bytes
             byte[] responseBytes = Arrays.copyOf(reply.getData(), reply.getLength());
+            // convert the returned bytes to int
             int responseNum = convertByteArrayToInt(responseBytes);
             System.out.println("The server returned " + responseNum);
         } catch (SocketException e) {
@@ -75,6 +77,9 @@ public class AddingClientUDP {
         }
         return 0;
     }
+    /**
+     * Method for taking care of corner case halt.
+     * */
     public static void handleHalt(String line) throws IOException {
         byte[] m = line.getBytes();
         // request pocket for sending text to the server
@@ -86,6 +91,7 @@ public class AddingClientUDP {
         DatagramPacket reply = new DatagramPacket(buffer, buffer.length);
         aSocket.receive(reply);
         byte[] responseBytes = Arrays.copyOf(reply.getData(), reply.getLength());
+        // convert the returned bytes to string
         String responseString = new String(responseBytes);
         if (responseString.equalsIgnoreCase("halt!")) {
             // convert reply to a string and print in the console
@@ -93,7 +99,11 @@ public class AddingClientUDP {
             System.out.println("UDP client side quitting");
         }
     }
-    // source:https://javadeveloperzone.com/java-basic/java-convert-int-to-byte-array/
+
+    /**
+     * Method for converting int number into byte array.
+     * source:https://javadeveloperzone.com/java-basic/java-convert-int-to-byte-array/
+     * */
     public static byte[] intToBytes(int data) {
         return new byte[] {
                 (byte)((data >> 24) & 0xff),
@@ -102,7 +112,10 @@ public class AddingClientUDP {
                 (byte)((data >> 0) & 0xff),
         };
     }
-
+    /**
+     * Method for converting byte array into int.
+     * source:https://javadeveloperzone.com/java-basic/java-convert-int-to-byte-array/
+     * */
     private static int convertByteArrayToInt(byte[] intBytes){
         ByteBuffer byteBuffer = ByteBuffer.wrap(intBytes);
         return byteBuffer.getInt();

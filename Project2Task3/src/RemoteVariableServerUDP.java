@@ -1,5 +1,5 @@
 /**
- * UDP Server for Project2Task2
+ * Remote variable server for Project2Task3
  * @author Zihan Li
  * @AndrewID zihanli2
  *
@@ -10,11 +10,10 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.SocketException;
 import java.nio.ByteBuffer;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
-public class AddingServerUDP {
-    static int sum;
+public class RemoteVariableServerUDP {
+    static Map<Integer, Integer> sumMap = new TreeMap<>();
     public static void main(String args[]) {
         System.out.println("Server started");
         // declare the socket object
@@ -35,28 +34,40 @@ public class AddingServerUDP {
                 aSocket.receive(request);
                 // cut down the size of request bytes
                 byte[] requestBytes = Arrays.copyOf(request.getData(), request.getLength());
-                // convert the request data from byte array to string
-                String requestString = new String(requestBytes);
-                // quit the socket if received halt message from the client
-                if (requestString.contains("halt!")) {
-                    // print the received message to the console
-                    System.out.println("Echoing: " + requestString);
-                    // create a new socket object for sending reply to the client
-                    DatagramPacket reply = new DatagramPacket(request.getData(),
-                            request.getLength(), request.getAddress(), request.getPort());
-                    // write data to the socket by sending reply to the client
+                // convert the request data from byte array to integer value, in this case the quit option
+                if (requestBytes.length == 4) {
+                    int requestNum = convertByteArrayToInt(requestBytes);
+                    DatagramPacket reply = new DatagramPacket(intToBytes(requestNum),
+                            intToBytes(requestNum).length, request.getAddress(), request.getPort());
                     aSocket.send(reply);
-                    System.out.println("UDP server side quitting");
-                    // jump to the final block
-                    return;
                 }
-                // convert the bytes to int
-                int requestNum = convertByteArrayToInt(requestBytes);
-                addAction(requestNum);
-                // create a new socket object for sending reply to the client
-                DatagramPacket reply = new DatagramPacket(intToBytes(sum),
-                        intToBytes(sum).length, request.getAddress(), request.getPort());
-                aSocket.send(reply);
+                // convert the request data from byte array to integer value, in this case the get option and id
+                if (requestBytes.length == 8) {
+                    ByteBuffer byteBuffer = ByteBuffer.wrap(requestBytes);
+                    int id = byteBuffer.getInt();
+                    int responseNum = sumMap.getOrDefault(id, 0);
+                    DatagramPacket reply = new DatagramPacket(intToBytes(responseNum),
+                            intToBytes(responseNum).length, request.getAddress(), request.getPort());
+                    aSocket.send(reply);
+                }
+                // convert the request data from byte array to integer value, in this case the operation, id and value
+                if (requestBytes.length == 12) {
+                    ByteBuffer byteBuffer = ByteBuffer.wrap(requestBytes);
+                    int value = byteBuffer.getInt();
+                    int id = byteBuffer.getInt();
+                    int choice = byteBuffer.getInt();
+                    if (choice == 1) {
+                        // add value
+                        sumMap.put(id, sumMap.getOrDefault(id, 0) + value);
+                    } else {
+                        // subtract value
+                        sumMap.put(id, sumMap.getOrDefault(id, 0) - value);
+                    }
+                    int responseNum = sumMap.getOrDefault(id, 0);
+                    DatagramPacket reply = new DatagramPacket(intToBytes(responseNum),
+                            intToBytes(responseNum).length, request.getAddress(), request.getPort());
+                    aSocket.send(reply);
+                }
             }
         } catch (SocketException e) {
             // handle socket exception
@@ -68,16 +79,7 @@ public class AddingServerUDP {
             if (aSocket != null) aSocket.close(); // close}
         }
     }
-    /**
-     * Add methods which separates add number from packets communication.
-     * */
-    public static void addAction(int num) {
-        // print the received message to the console
-        System.out.printf("Adding %d to %d\n", num, sum);
-        sum += num;
-        System.out.printf("Returning sum of %d to client\n\n", sum);
-        // write data to the socket by sending reply to the client
-    }
+
     /**
      * Method for converting int number into byte array.
      * source:https://javadeveloperzone.com/java-basic/java-convert-int-to-byte-array/

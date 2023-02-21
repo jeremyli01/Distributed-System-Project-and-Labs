@@ -40,6 +40,7 @@ public class RemoteVariableServerUDP {
                     DatagramPacket reply = new DatagramPacket(intToBytes(requestNum),
                             intToBytes(requestNum).length, request.getAddress(), request.getPort());
                     aSocket.send(reply);
+                    System.out.println("quit request received.");
                 }
                 // convert the request data from byte array to integer value, in this case the get option and id
                 if (requestBytes.length == 8) {
@@ -49,6 +50,9 @@ public class RemoteVariableServerUDP {
                     DatagramPacket reply = new DatagramPacket(intToBytes(responseNum),
                             intToBytes(responseNum).length, request.getAddress(), request.getPort());
                     aSocket.send(reply);
+                    System.out.println("visitor's ID:" + id);
+                    System.out.println("operation requested: get");
+                    System.out.println("Returned value: " + responseNum);
                 }
                 // convert the request data from byte array to integer value, in this case the operation, id and value
                 if (requestBytes.length == 12) {
@@ -66,6 +70,10 @@ public class RemoteVariableServerUDP {
                     int responseNum = sumMap.getOrDefault(id, 0);
                     DatagramPacket reply = new DatagramPacket(intToBytes(responseNum),
                             intToBytes(responseNum).length, request.getAddress(), request.getPort());
+                    String operand = choice == 1 ? "add" : "subtract";
+                    System.out.println("visitor's ID:" + id);
+                    System.out.println("operation requested: " + operand);
+                    System.out.println("Returned value: " + responseNum);
                     aSocket.send(reply);
                 }
             }

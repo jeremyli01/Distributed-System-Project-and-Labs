@@ -1,13 +1,19 @@
 /**
  *
- * UDP Client for Project2Task0
+ * UDP Client for Project2Task1
  *
  * @author Zihan Li
  * @AndrewID zihanli2
  *
  * */
-import java.net.*;
-import java.io.*;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.SocketException;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -42,7 +48,7 @@ public class EchoClientUDP{
                 byte[] responseBytes = Arrays.copyOf(reply.getData(), reply.getLength());
                 String responseString = new String(responseBytes);
                 // convert reply to a string and print in the console
-                System.out.println("Reply from server: " + responseString);
+                System.out.println("Reply from server: " + new String(responseBytes));
                 if (responseString.equalsIgnoreCase("halt!")) {
                     System.out.println("UDP client side quitting");
                     // jump to the final block

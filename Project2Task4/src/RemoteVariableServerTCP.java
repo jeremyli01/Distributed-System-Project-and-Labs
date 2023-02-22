@@ -7,8 +7,6 @@
 
 import java.io.*;
 import java.net.*;
-import java.nio.ByteBuffer;
-import java.util.Arrays;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
@@ -33,16 +31,19 @@ public class RemoteVariableServerTCP {
                 PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(aSocket.getOutputStream())));
                 int choice;
                 while (in.hasNextLine()) {
+                    // get the received parameters and jump to different blocks depending on the choice
                     String responseString = in.nextLine();
                     String[] responseArray = responseString.split(" ");
                     choice = Integer.parseInt(responseArray[0]);
                     System.out.println("choice is" + choice);
                     if (choice == 4) {
+                        // send the quit request back
                         out.println(choice);
                         System.out.println("quit request received.");
                         out.flush();
                     }
                     if (choice == 3) {
+                        // get the sum of the specific id
                         int id = Integer.parseInt(responseArray[1]);
                         int responseNum = sumMap.getOrDefault(id, 0);
                         out.println(responseNum);
@@ -51,8 +52,8 @@ public class RemoteVariableServerTCP {
                         System.out.println("Returned value: " + responseNum);
                         out.flush();
                     }
-                    // convert the request data from byte array to integer value, in this case the operation, id and value
                     if (choice == 1 || choice == 2) {
+                        // convert the request data from byte array to integer value, in this case the operation, id and value
                         int id = Integer.parseInt(responseArray[1]);
                         int value = Integer.parseInt(responseArray[2]);
                         if (choice == 1) {

@@ -7,8 +7,6 @@
 
 import java.io.*;
 import java.net.*;
-import java.nio.ByteBuffer;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class RemoteVariableClientTCP {
@@ -31,8 +29,6 @@ public class RemoteVariableClientTCP {
             aSocket = new Socket("localhost", serverPort);
             in = new BufferedReader(new InputStreamReader(aSocket.getInputStream()));
             out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(aSocket.getOutputStream())));
-//            outServer = new DataOutputStream(aSocket.getOutputStream());
-//            inServer = new DataInputStream(aSocket.getInputStream());
             // read the input data line by line in a while-loop
             while (true) {
                 System.out.println("1. Add a value to your sum.");

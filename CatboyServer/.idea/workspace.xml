@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CatboyServer:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16cc2f56-3703-45e0-b7a4-d5252234db50" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CatboyServer_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CatboyServer_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/catboyserver/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterestingPicture/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab5/Lab5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project1_zihanli2/Project1Task2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2Task3/Project2Task3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2Task4/Project2Task4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2Task5/Project2Task5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task0/Project3Task0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task0/src/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task0/src/BlockChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task1/api1.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task1/src/main/java/org/example/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task1/src/main/java/org/example/BlockChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task1/src/main/java/org/example/BlockChainClientTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task1/src/main/java/org/example/BlockChainServerTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task1/src/main/java/org/example/RequestMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task1/src/main/java/org/example/ResponseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectCheckpoint/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.idea/artifacts/RESTServicePrj_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.idea/artifacts/RESTServicePrj_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/src/main/java/com/example/restserviceprj/VariableApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/src/main/java/com/example/restserviceprj/VariableMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REST_Client_Project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REST_Client_Project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REST_Client_Project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REST_Client_Project/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REST_Client_Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REST_Client_Project/REST_Client_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark-Example-Lab9/CountData/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark-Example-Lab9/CountData/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark-Example-Lab9/CountData/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark-Example-Lab9/CountData/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark-Example-Lab9/hadooplab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark-Example-Lab9/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark-Example-Lab9/src/main/java/org/example/WordCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/.idea/libraries/google_code_gson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/docker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InterestingPicture/src/main/java/ds/InterestingPictureServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InterestingPicture/src/main/java/ds/InterestingPictureServlet.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2O7bfnwo82IaNDzFXR0zSn140q0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TomEE 10.0.27" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 10.0.27" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="CatboyServer:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/CatboyServer-1.0-SNAPSHOT" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="585af3fe-37ad-47ac-94b1-86720662970e" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53417" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CatboyServer:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16cc2f56-3703-45e0-b7a4-d5252234db50" name="Changes" comment="" />
+      <created>1680914674042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680914674042</updated>
+      <workItem from="1680914676382" duration="5837000" />
+      <workItem from="1680971008479" duration="3312000" />
+      <workItem from="1681050946290" duration="16403000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

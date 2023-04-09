@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd3252aa-0ebc-444d-a72f-ce0e1c7ec9e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab5/Lab5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project1_zihanli2/Project1Task2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2Task3/Project2Task3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2Task4/Project2Task4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2Task5/Project2Task5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task0/Project3Task0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task0/src/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task0/src/BlockChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task1/api1.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task1/src/main/java/org/example/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task1/src/main/java/org/example/BlockChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task1/src/main/java/org/example/BlockChainClientTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task1/src/main/java/org/example/BlockChainServerTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task1/src/main/java/org/example/RequestMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3Task1/src/main/java/org/example/ResponseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectCheckpoint/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.idea/artifacts/RESTServicePrj_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.idea/artifacts/RESTServicePrj_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/src/main/java/com/example/restserviceprj/VariableApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/src/main/java/com/example/restserviceprj/VariableMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTServicePrj/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REST_Client_Project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REST_Client_Project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REST_Client_Project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REST_Client_Project/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REST_Client_Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REST_Client_Project/REST_Client_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark-Example-Lab9/CountData/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark-Example-Lab9/CountData/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark-Example-Lab9/CountData/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark-Example-Lab9/CountData/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark-Example-Lab9/hadooplab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark-Example-Lab9/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark-Example-Lab9/src/main/java/org/example/WordCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/.idea/libraries/google_code_gson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGsonProject/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2O717XUltlQTigCAKQLO5XILr5r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/jeremyli/Documents/95-702 Distributed System/Distributed System Labs and Projects/docker"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd3252aa-0ebc-444d-a72f-ce0e1c7ec9e5" name="Changes" comment="" />
+      <created>1680896640054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680896640054</updated>
+      <workItem from="1680896641225" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

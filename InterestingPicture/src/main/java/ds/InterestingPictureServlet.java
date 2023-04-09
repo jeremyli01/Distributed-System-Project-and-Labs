@@ -106,5 +106,6 @@ public class InterestingPictureServlet extends HttpServlet {
         RequestDispatcher view = request.getRequestDispatcher(nextView);
         view.forward(request, response);
     }
+
 }
 
